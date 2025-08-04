@@ -30,3 +30,21 @@ ForoHub es una aplicación backend desarrollada con **Spring Boot** y **PostgreS
 ## 📦 Estructura del proyecto
 src/ ├── main/ │   ├── java/ │   │   └── com.forohub/ │   │       ├── controller/ │   │       ├── service/ │   │       ├── repository/ │   │       ├── model/ │   │       └── dto/ │   └── resources/ │       ├── application.properties │       └── schema.sql
 
+
+---
+
+## 🧪 Cómo ejecutar
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/foro-hub.git
+   
+2. Configura tu base de datos MySQL en application.properties
+3. Ejecuta la aplicación desde IntelliJ o con Maven:
+
+mvn spring-boot:run
+📌 Próximas mejoras- Autenticación con JWT
+- Documentación con Swagger
+- Tests unitarios y de integración
+📬 ContactoDesarrollado por Alison
+
