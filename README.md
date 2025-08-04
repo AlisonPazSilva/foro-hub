@@ -28,3 +28,5 @@ ForoHub es una aplicación backend desarrollada con **Spring Boot** y **PostgreS
 ---
 
 ## 📦 Estructura del proyecto
+src/ ├── main/ │   ├── java/ │   │   └── com.forohub/ │   │       ├── controller/ │   │       ├── service/ │   │       ├── repository/ │   │       ├── model/ │   │       └── dto/ │   └── resources/ │       ├── application.properties │       └── schema.sql
+
